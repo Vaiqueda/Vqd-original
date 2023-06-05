@@ -1,0 +1,130 @@
+
+header {background-color: black;
+    display: flex;
+    justify-content: space-between;
+    height: 140px;
+}
+
+body {
+    margin: 0;
+}
+
+img { justify-content: center;
+
+}
+
+h1 { display:flex; 
+    justify-content: center;
+}
+
+nav {color: white;
+display:flex;
+align-items: center;
+justify-content: flex-end;
+}
+
+p { display: flex;
+    align-content: space-around;
+    margin-right: 15px;
+}
+
+.foto1 { display:flex;
+background-size: cover;
+
+}
+
+div { display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: space-around;
+  
+    
+}
+
+figure {
+    width:30%;
+    margin: 0;
+    margin-top: 60px ;
+    margin-bottom: 60px;
+
+}
+
+figure img { max-width: 100% ;
+}
+
+figure img:hover {
+    background-color: white ;
+    
+    color: black ;
+    transition-duration: 5s;
+}
+
+#destaque {
+    width: 100%;
+    height: calc( 100vh - 240px);
+    background-image: url('https://images.pexels.com/photos/1868471/pexels-photo-1868471.jpeg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#botao{
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-radius: 10px;
+    Padding: 10px 20px 10px 20px ;
+    margin-top: 50px;
+}
+
+ #botao:hover {
+    background-color: black;
+    color: white;
+    transition-duration: 1s;
+}
+
+#logo { background-image: none;
+    border: none;
+
+}
+
+h2 { color: white;
+    margin-top: -2px;
+background-color: black;
+}
+
+#socialmedia {
+    display: flex;
+    justify-content: space-between;
+   
+
+}
+
+footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+p {
+    color: white;
+}
+
+#botaocontacto {
+    display: flex;
+    flex-direction: column;
+}
+
+#shop {
+    width: 90px ;
+}
+
+#abaixo {
+    display: block;
+  
+}
